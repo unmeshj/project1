@@ -1,0 +1,232 @@
+/* section1 */
+
+.home{
+    width: 100%;
+    margin: 0;
+}
+
+.home img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+.home {
+    position: relative;
+}
+
+
+.home::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Increase the opacity value (0.7 is just an example) */
+    z-index: 0;
+}
+
+
+.home-heading {
+    position: absolute;
+    width: 100%;
+    padding-top: 12%;
+    padding-left: 8%;
+    color: white;
+    z-index: 1;
+}
+
+.home-head h1 {
+    font-size: 5rem;
+}
+
+.home-head {
+    width: 80%;
+    padding-bottom: 3%;
+}
+
+.home-heading {
+    position: absolute;
+    width: 100%;
+    padding-top: 12%;
+    padding-left: 8%;
+    color: white;
+}
+
+.home-head h1{
+    font-size: 5rem;
+}
+.home-head{
+    width: 80%;
+    padding-bottom: 3%;
+}
+
+
+/* section2 */
+
+.img2{
+    width: 80%;
+    border-radius: 100%;
+    padding: 10%
+}
+
+.info{
+    background: rgb(8, 8, 48);
+    padding-top: 4%;
+}
+
+.detail{
+    width: 100%;
+    padding: 10%;
+}
+
+.info-head h2{
+    font-size: 3rem;
+    padding-bottom: 3%;
+    width: 50%;
+    color: white;
+}
+
+.info-dtl p{
+    width: 80%;
+    color: white;
+}
+
+.btn1{
+    margin-top: 6%;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2.2%;
+    padding-bottom: 2.2%;
+    color: white;
+    background: rgb(28, 53, 129);
+}
+
+/* section3 */
+
+.highlight{
+    background: rgb(8, 8, 48);
+    padding-top: 8%;
+    padding-bottom: 6%;
+
+}
+.highlight-head{
+    padding: 8%;
+    font-size: 3rem;
+    padding-bottom: 3%;
+    width: 50%;
+    color: white;
+}
+
+.highlight-detail{
+    width: 80%;
+    padding: 10%;
+    /* padding-top: 20%; */
+    background: rgb(28, 53, 129);
+    display: inline-block;
+    color: white;
+}
+
+span{
+    font-size: 5rem;
+    display: inline-block;
+}
+
+
+
+.highlight-detail div {
+    display: flex;
+    align-items: center; /* Align items vertically in the middle */
+
+}
+
+.highlight-number {
+    margin-right: 10px; /* Adjust the margin as needed */
+
+}
+
+.highlight-text{
+    padding-right: 3%;
+}
+/* section4 */
+
+.about{
+    padding-top: 1%;
+    background: rgb(28, 53, 129);
+    padding-bottom: 2%;
+
+}
+
+.img3 img{
+    width: 50%;
+    border-radius: 100%;
+    padding-bottom: 3%;
+}
+.img4 img{
+    width: 50%;
+    border-radius: 100%;
+    margin-left: 30%;
+}
+
+.about-img{
+    padding: 13%;
+    width: 100%;
+}
+
+.detail2{
+    width: 100%;
+    padding: 10%;
+    padding-top: 20%;
+}
+
+.btn2{
+    margin-top: 6%;
+    padding-left: 8%;
+    padding-right: 8%;
+    padding-top: 2.2%;
+    padding-bottom: 2.2%;
+    color: white;
+    background: rgb(8, 8, 48);
+}
+
+
+/* section5 */
+
+.footer{
+    width: 100%;
+    margin: 0;
+}
+
+.footer img{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 70vh;
+}
+
+
+.footer {
+    position: relative;
+}
+
+
+.footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.7); /* Increase the opacity value (0.7 is just an example) */
+    z-index: 0;
+}
+
+.footer-details{
+    position: absolute;
+    color: white;
+    width: 100%;
+    padding-top: 10%;
+    padding-left: 8%;
+}
